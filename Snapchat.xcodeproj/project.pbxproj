@@ -13,6 +13,8 @@
 		97EF7E39228D7B01009F1873 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97EF7E38228D7B01009F1873 /* Assets.xcassets */; };
 		97EF7E3C228D7B01009F1873 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97EF7E3A228D7B01009F1873 /* LaunchScreen.storyboard */; };
 		97EF7E46228D7C1A009F1873 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 97EF7E45228D7C1A009F1873 /* GoogleService-Info.plist */; };
+		97EF7E49228DFDE5009F1873 /* SnapsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EF7E48228DFDE5009F1873 /* SnapsTableViewController.swift */; };
+		97EF7E4B228E0B55009F1873 /* SelectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EF7E4A228E0B55009F1873 /* SelectedViewController.swift */; };
 		97EF7E4D228E1D8A009F1873 /* SelectReceiverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EF7E4C228E1D8A009F1873 /* SelectReceiverTableViewController.swift */; };
 		97EF7E4F228E2C05009F1873 /* ViewTheSnapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EF7E4E228E2C05009F1873 /* ViewTheSnapsViewController.swift */; };
 		DD2422311FA336EB980D79E7 /* Pods_Snapchat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C08B02EB8E3F1988A16BF5BE /* Pods_Snapchat.framework */; };
@@ -28,6 +30,8 @@
 		97EF7E3B228D7B01009F1873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97EF7E3D228D7B01009F1873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97EF7E45228D7C1A009F1873 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		97EF7E48228DFDE5009F1873 /* SnapsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapsTableViewController.swift; sourceTree = "<group>"; };
+		97EF7E4A228E0B55009F1873 /* SelectedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedViewController.swift; sourceTree = "<group>"; };
 		97EF7E4C228E1D8A009F1873 /* SelectReceiverTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectReceiverTableViewController.swift; sourceTree = "<group>"; };
 		97EF7E4E228E2C05009F1873 /* ViewTheSnapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTheSnapsViewController.swift; sourceTree = "<group>"; };
 		C08B02EB8E3F1988A16BF5BE /* Pods_Snapchat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snapchat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +93,8 @@
 				97EF7E33228D7B01009F1873 /* LoginViewController.swift */,
 				97EF7E35228D7B01009F1873 /* Main.storyboard */,
 				97EF7E4E228E2C05009F1873 /* ViewTheSnapsViewController.swift */,
+				97EF7E4A228E0B55009F1873 /* SelectedViewController.swift */,
+				97EF7E48228DFDE5009F1873 /* SnapsTableViewController.swift */,
 				97EF7E38228D7B01009F1873 /* Assets.xcassets */,
 				97EF7E3A228D7B01009F1873 /* LaunchScreen.storyboard */,
 				97EF7E45228D7C1A009F1873 /* GoogleService-Info.plist */,
@@ -216,8 +222,10 @@
 			files = (
 				97EF7E4F228E2C05009F1873 /* ViewTheSnapsViewController.swift in Sources */,
 				97EF7E4D228E1D8A009F1873 /* SelectReceiverTableViewController.swift in Sources */,
+				97EF7E49228DFDE5009F1873 /* SnapsTableViewController.swift in Sources */,
 				97EF7E34228D7B01009F1873 /* LoginViewController.swift in Sources */,
 				97EF7E32228D7B01009F1873 /* AppDelegate.swift in Sources */,
+				97EF7E4B228E0B55009F1873 /* SelectedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
